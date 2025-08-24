@@ -1,0 +1,43 @@
+/* 擴充 spacing：py-6/7/8/9/10/11（56/80/64/72/96/120px） */
+$spacer: 1rem;
+$spacers: map-merge(
+  $spacers,
+  (
+    6: $spacer * 3.5,  // 56px
+    7: $spacer * 5,    // 80px
+    8: $spacer * 4,    // 64px
+    9: $spacer * 4.5,  // 72px
+    10: $spacer * 6,   // 96px
+    11: $spacer * 7.5  // 120px
+  )
+);
+
+
+// custom.scss
+$font-size-base: 18px;
+$h1-font-size: 2.5rem;  // 40px
+$h2-font-size: 2rem;    // 32px
+$h3-font-size: 1.75rem; // 28px
+
+.fs-32 {
+    font-size: 32px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+
+// custom.scss（被 all.scss 在 variables 之前 import）
+$spacers: map-merge($spacers, (6: 3.5rem, 7: 5rem)); // 56px, 80px
+$font-sizes: map-merge($font-sizes, (7: 1.125rem, 8: 1.5rem)); // 18px, 24px 例

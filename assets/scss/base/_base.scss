@@ -1,0 +1,37 @@
+/* 標籤的基本樣式 */
+// *{
+//     outline: 1px solid #ff0000;
+// } 
+body{
+    letter-spacing: 0.02em;
+} 
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    display: inline-block;
+}
+
+@mixin pc{
+  @media(min-width: 992px){
+	  @content;
+  }
+}
+
+@mixin mobile{
+  @media(max-width: 991.98px){
+	  @content;
+  }
+}
+
+.header-top{
+    padding-top: 65px;
+    @include mobile{
+		padding-top: 67px;
+	};
+}
+

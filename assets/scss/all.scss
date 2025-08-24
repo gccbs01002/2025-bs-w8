@@ -1,0 +1,25 @@
+/* 引入字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+/* 引用 Material Icons */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+/* 引用 bootstrap */
+@import "bootstrap/scss/functions";
+@import './utils/variables';
+@import "bootstrap";
+
+@import "./utils/utilities";
+@import "bootstrap/scss/utilities/api";
+
+
+// base
+@import './base/base';
+
+// components
+
+// layout
+@import './layout/header';
+@import './layout/footer';
+
+// pages
+@import "./pages/index";
+@import "./pages/customer";

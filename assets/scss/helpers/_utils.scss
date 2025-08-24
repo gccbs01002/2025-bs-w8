@@ -1,0 +1,525 @@
+
+/*通用樣式*//*1320不會貼齊在瀏覽器邊緣*/
+
+
+.d-flex{
+    display: flex;
+
+}
+
+.d-tone{
+	display: none;
+}
+
+
+
+.justify-between{
+    justify-content: space-between;    
+}
+
+
+.justify-center{
+    justify-content: center;    
+}
+
+.align-center{
+    align-items: center;
+}
+    
+
+
+
+/*設定清單裡包a連結字型樣式*/
+a {
+	text-decoration: none;
+	text-underline-offset: 4px;
+	display: block;
+	font-weight: 500;
+	
+}
+
+.display-2{
+	font-size: 48px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+
+
+
+.h1{
+	font-size: 40px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.h2{
+	font-size: 32px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+
+
+.h3{
+	font-size: 28px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+
+.h4{
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+
+.h5{
+	font-size: 20px;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+.h6 {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+
+.text-sm {
+	font-size: 21px;
+	font-weight: 400;
+}
+
+
+.text-lg {
+	font-size: 20px;
+}
+
+
+
+
+
+/*文字顏色通用樣式*/
+
+.text-danger{
+	font-size: 14px;
+	color: #D74F4F;
+
+}
+
+
+
+
+
+
+//.text-white{
+//	color: #FFFFFF;
+//}
+
+
+/*通常是8的倍數*/
+.py-64 {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+
+.py-16{
+	padding-top: 16px;
+	padding-bottom: 12px;
+}
+
+.py-12{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.py-32{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.py-48{
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.p-12{
+	padding: 12px;
+}
+
+.py-8{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.px-24{
+	padding-right: 24px;
+	padding-left: 24px;
+}
+
+
+.pb-24{
+	padding-bottom: 24px;
+}
+
+.pt-64{
+	padding-top: 64px;
+}
+
+.pb-64{
+	padding-bottom: 64px;
+} 
+
+.pt-32{
+	padding-top: 32px;
+}
+
+
+
+
+/*12欄*/
+.col-1{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12);
+}
+
+
+.col-2{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 2);
+}
+
+
+.col-3{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 3);
+}
+
+
+.col-4{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 4);
+}
+
+
+.col-5{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 5);
+}
+
+
+.col-6{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 6);
+}
+
+
+.col-7{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 7);
+}
+
+
+.col-8{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 8);
+}
+
+
+.col-9{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 9);
+}
+
+
+.col-10{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 10);
+}
+
+
+.col-11{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 11);
+}
+
+
+.col-12{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: calc(100% / 12 * 12);
+}
+
+
+
+
+/*左側邊目錄*/
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -12px;
+	margin-left: -12px;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;  /*避免圖片變形*/
+	display: block;
+
+}
+
+// 圖片響應式
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.intro img {
+	 width: 100%;
+  max-width: 1076px;
+  display: block;
+  margin: 0 auto;
+}
+
+.mb-4{
+	margin-bottom: 4px;
+}
+
+.mb-8{
+	margin-bottom: 8px;
+}
+
+
+.mb-12{
+	margin-bottom: 12px;
+}
+
+
+.mb-16{
+	margin-bottom: 16px;
+}
+
+.mb-24{
+	margin-bottom: 24px;
+}
+
+.mt-32{
+	margin-top: 32px;
+}
+
+.mt-64{
+	margin-top: 64px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+
+.mb-48{
+	margin-bottom: 48px;
+}
+
+.mb-64{
+	margin-bottom: 64px;
+}
+
+.mb-26{
+	margin-bottom: 26px;
+}
+
+.me-8{
+	margin-right: 8px;
+}
+
+.me-12{
+	margin-right: 12px;
+}
+
+.me-24{
+	margin-right: 24px;
+}
+
+.me-48{
+	margin-right: 48px;
+}
+
+.me-40{
+	margin-right: 40px;
+}
+
+
+
+
+
+
+
+.py-24{
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+
+
+/**偽元素**/ /*元件*/ /*p0-12*/
+.breadcrumb-item + .breadcrumb-item::before{
+	content: '/';
+	padding: 0 12px;
+	font-weight: 700;
+}
+
+.breadcrumb-item {
+	display: flex;
+	font-weight: 500;
+}
+
+.breadcrumb-link {
+}
+
+
+
+
+/*按鈕的通用樣式 	border: none;*/
+.btn{
+	
+	border-radius: 16px;
+	padding:12px 24px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px solid #FCFCFD;
+	display: inline-block;
+	
+}
+
+
+
+
+.btn-light{
+	padding:12px 24px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 500;
+	border: 1px solid #212529;
+	cursor: pointer;
+	color: #212529;
+}
+
+
+.btn-dark{
+	
+	padding:12px 24px;
+	font-size: 14px;
+	line-height: 1.5;
+	font-weight: 500;
+	cursor: pointer;
+	border: 1px solid #212529;
+	color: #ffffff;
+	
+}
+
+
+
+
+.ellipsis {
+  white-space: nowrap;          /* 不換行 */
+  overflow: hidden;             /* 超出隱藏 */
+  text-overflow: ellipsis;     /* 超出顯示 ... */
+}
+
+.production-action{
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
+.production-action .btn{
+	width: 50%;
+	
+}
+
+
+.production-action .main-btn {
+  flex: 1; /* 撐滿剩下的空間 */
+}
+
+
+
+
+.bi{
+	padding-right: 8px;
+}
+
+.product-info-title{
+	font-weight: 500;
+}
+
+
+.product-info-item {	
+	border-bottom: 1px solid #DEE2E6;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.copyright{
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+  .production-action .icon-btn {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  flex-shrink: 0; /* 防止被壓縮 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bi-md-like{
+	padding-right: 0px;
+}
+
+
+
+// 產品卡片
+.product {
+  position: relative;
+  width: 100%;
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+
+//bootstap的media是由行動小寫到大網頁
