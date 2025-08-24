@@ -366,7 +366,8 @@ $secondary: $secondary-50;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
+//$danger:        $red !default;
+$alert:     $alert:
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
@@ -401,7 +402,9 @@ $theme-colors: (
   "success":    $success,
   "info":       $info,
   "warning":    $warning,
-  "danger":     $danger,
+  //"danger":     $danger,
+  "alert":     $alert,
+  
   "light":      $light,
   "dark":       $dark
 ) !default;
