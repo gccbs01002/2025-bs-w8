@@ -1,9 +1,53 @@
 $utilities: map-merge(
   $utilities,
   (
-    "font-size": map-merge(
-      map-get($utilities, "font-size"),
-      ( responsive: true ),
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true,
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-size"), "values"),
+              (
+                1: 72px,
+                2: $h1-font-size,
+                //48
+                3: $h2-font-size,
+                //40
+                4: $h3-font-size,
+                //32
+                5: $h4-font-size,
+                //28
+                6: $h5-font-size,
+                //24
+                7: $h6-font-size,
+                //20
+                8: 16px,
+                9: 14px,
+                10: 12px,
+              )
+            ),
+        )
+      ),
+    "rounded": (
+      property: border-radius,
+      class: rounded,
+      responsive: true,
+      values:
+        (
+          null: $border-radius,
+          0: 0,
+          1: $border-radius-sm,
+          2: $border-radius,
+          3: $border-radius-lg,
+          4: $border-radius-xl,
+          5: $border-radius-xxl,
+          circle: 50%,
+          pill: $border-radius-pill,
+        ),
     ),
   )
 );
+
+

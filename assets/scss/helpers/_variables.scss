@@ -1,3 +1,4 @@
+
 $primary-120:#2B211C;
 $primary:#4A3830;
 $primary-80:#886658;
@@ -29,6 +30,17 @@ $neutral-10:#F9F9F9;
 $neutral-0:#FFFFFF;
 
 
+// _variables.scss
+$spacers: map-merge(
+  $spacers,
+  (
+    6: 4rem,
+    7: 5rem,
+    8: 6rem,
+    9: 7rem,
+    10: 8rem
+  )
+);
 
 // Variables
 //
@@ -38,7 +50,7 @@ $neutral-0:#FFFFFF;
 // Color system
 
 // scss-docs-start gray-color-variables
-// 職旅中性色
+// 中性色
 $natural-95:#F0F3F5;
 $natural-90:#E0E5EB;
 $natural-85:#D1D9E1;
@@ -51,6 +63,14 @@ $black:$natural-10;
 $dark:$black;
 $white:#fcfdfd;
 $light:$white;
+
+
+$primary-120:#2B211C;
+$primary:#4A3830;
+$primary-80:#886658;
+$primary-60:#A37F71;
+$primary-40:#CBB6AF;
+$primary-10:#F3EEEC;
 
 // $white:    #fff !default;
 $gray-100: #f8f9fa !default;
@@ -344,17 +364,18 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-// 職旅主色
+// 主色
 $primary-97: #f1f4fd;
 $primary-90: #D2D9F9;
 $primary-80: #A4B4F3;
 $primary-70: #778EEE;
-$primary-60: #4A69E8;
-$primary-40: #1736B5;
+$primary-60: #2B211C;;
+$primary-40: #2B211C;;
 $primary-25: #0E2271;
+$primary-10: #F3EEEC;
 $primary: $primary-60;
 
-// 職旅輔色
+// 輔色
 $secondary-90: #D7F4EC;
 $secondary-70: #87DEC5;
 $secondary-50: #36C99F;
@@ -367,27 +388,27 @@ $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 //$danger:        $red !default;
-$alert:     $alert:
+$alert:     $alert;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-// 職旅主色
-"primary-97": $primary-97,
-"primary-90": $primary-90,
-"primary-80": $primary-80,
-"primary-70": $primary-70,
-"primary-60": $primary-60,
-"primary-40": $primary-40,
-"primary-25": $primary-25,
-// 職旅輔色
+// 主色
+"$primary-120":#2B211C,
+"$primary":#4A3830,
+"$primary-80":#886658,
+"$primary-60":#A37F71,
+"$primary-40":#CBB6AF,
+"$primary-10":#F3EEEC,
+
+// 輔色
 "secondary-90": $secondary-90,
 "secondary-70": $secondary-70,
 "secondary-50": $secondary-50,
 "secondary-35": $secondary-35,
-// 職旅中性色
+// 中性色
 "natural-95":$natural-95,
 "natural-90":$natural-90,
 "natural-85":$natural-85,

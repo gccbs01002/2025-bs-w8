@@ -1,21 +1,55 @@
-<nav class="navbar bg-white fixed-top py-4">
-  <div class="container">
-    <a class="navbar-brand p-0" href="index"><img src="/assets/images/LOGO.png"></a>
-    <button type="button" class="btn p-2 border-0">
-<span class="material-icons-outlined align-bottom">search</span>
+<nav class="navbar bg-white fixed-top py-lg-5 py-4">
+ <div class="container position-relative">
 
+  <div class="d-flex align-items-center me-auto">
+    <a class="navbar-brand p-0 me-7" href="index">
+      <img src="/assets/images/LOGO.png" alt="">
+    </a>
+          <form class="position-relative ps-4 d-none d-lg-block">
+        <span class="material-icons-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-natural-75 ">search</span>
+        <input type="search" class="form-control rounded-1 py-2 ps-5 navbar-lg-search"
+        id="navbar-lg-search"
+        placeholder="搜尋景點、地點或城市">
+      </form>
+
+  </div>
+<div class="position-absolute start-0 end-0 px-4 z-1 bg-white">
+
+  <div class="collapse" id="collapseExample">
+    <div class="d-flex align-items-center">
+      <form class="position-relative ps-4 w-100">
+        <span class="material-icons-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-natural-75 ">search</span>
+        <input type="search" class="form-control rounded-1 py-2 ps-5" placeholder="搜尋景點、地點或城市">
+      </form>
+      <button type="button" class="btn p-2 border-0"             
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample">
+          <span class="material-icons-outlined">
+close
+</span></button>
+
+    </div>
+  </div>
+
+</div>
+
+    <button type="button" class="btn p-2 border-0 d-lg-none"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-controls="collapseExample"
+            aria-expanded="false">
+      <span class="material-icons-outlined align-bottom">search</span>
     </button>
-    <a href="#" class="btn border-0 py-2">
+    <a href="#" class="btn border-0 py-3">
       <span class="position-relative">
-          <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-0 cart-tag">
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-0 cart-tag text-primary-97">
     2
-  
-
 </span>
+
         <span class="material-icons-outlined align-bottom">shopping_cart</span>
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button class="btn border-0 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="material-icons-outlined align-bottom ">menu </span>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">

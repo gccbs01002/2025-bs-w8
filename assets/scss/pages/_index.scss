@@ -86,3 +86,16 @@ padding-right: 32px;
     margin-bottom: 40px;
 }
 }
+
+.banner {
+   background-image: url(/assets/images/index/hero-bg.png);
+   background-position: center;
+   background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 112px;
+}
+
+.recommend{
+    background-color: #221f1e;
+}
