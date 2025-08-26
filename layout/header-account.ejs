@@ -1,0 +1,94 @@
+<nav class="navbar bg-white fixed-top py-lg-5 py-4">
+ <div class="container position-relative">
+
+  <div class="d-flex align-items-center me-auto">
+    <a class="navbar-brand p-0 me-7" href="index">
+      <img src="/assets/images/LOGO.png" alt="">
+    </a>
+          <form class="position-relative ps-4 d-none d-lg-block">
+        <span class="material-icons-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-natural-75 ">search</span>
+        <input type="search" class="form-control rounded-1 py-2 ps-5 navbar-lg-search"
+        id="navbar-lg-search"
+        placeholder="搜尋景點、地點或城市">
+      </form>
+
+  </div>
+<div class="position-absolute start-0 end-0 px-4 z-1 bg-white">
+
+  <div class="collapse" id="collapseExample">
+    <div class="d-flex align-items-center">
+      <form class="position-relative ps-4 w-100">
+        <span class="material-icons-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-natural-75 ">search</span>
+        <input type="search" class="form-control rounded-1 py-2 ps-5" placeholder="搜尋景點、地點或城市">
+      </form>
+      <button type="button" class="btn p-2 border-0"             
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseExample">
+          <span class="material-icons-outlined">
+close
+</span></button>
+
+    </div>
+  </div>
+
+</div>
+
+    <button type="button" class="btn p-2 border-0 d-lg-none"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+            aria-controls="collapseExample"
+            aria-expanded="false">
+      <span class="material-icons-outlined align-bottom">search</span>
+    </button>
+    <a href="#" class="btn border-0 py-3 me-2">
+      <span class="position-relative">
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-danger p-0 cart-tag text-primary-97">
+    2
+</span>
+
+        <span class="material-icons-outlined align-bottom">shopping_cart</span>
+
+ <a href="index.html" class="d-none d-lg-flex align-items-center">
+      <img src="/assets/images/user/avatar-1.png" alt="avatar-1" class="user-img me-2" width="32px">
+      <p class="fw-bold text-primary-75 fs-7">Jessica</p>
+    </a>
+
+    <button class="btn border-0 p-2 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="material-icons-outlined align-bottom ">menu </span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,10 @@
+.btn-primary-40{
+    background-color: #4A3830;
+    border-color: #4A3830;
+    color: #fff;
+
+    &:hover{
+        background-color: darken(#4A3830, 10%);
+        border-color: darken(#4A3830, 10%);
+    }
+}
