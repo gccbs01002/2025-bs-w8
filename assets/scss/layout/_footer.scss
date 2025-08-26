@@ -8,3 +8,13 @@
   padding-bottom: 92.5px;
 
 }
+
+.footer-img{
+  width: 269px;
+}
+
+@media (max-width: 576px) {
+  .footer-img{
+    width: 160px;
+  }
+}

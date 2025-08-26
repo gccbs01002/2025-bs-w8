@@ -108,13 +108,6 @@
 }
 
 
-body{
-  background:
-    #f6f6f7
-    url("/assets/images/index/bg-line.svg") no-repeat
-    center -40px / clamp(800px, 80vw, 1280px) auto;
-    background-image: fill;
-  }
 
 .tabs-rail .nav-underline .nav-link{
   position: relative;
@@ -136,3 +129,36 @@ body{
 .text-bg{
   background-color: #4A3830;
 }
+
+
+
+.nav-link.active {
+  color: #4a3830 !important;
+  font-weight: 600;
+  border-bottom: 2px solid #4a3830 !important;
+  background-color: transparent;
+}
+.nav-link:hover {
+  color: #886658;
+}
+
+
+
+
+
+
+
+.account-page-bg{ background:#f6f6f7; position:relative; }
+.account-page-bg::before{
+  content:"";
+  position:absolute; inset:0;
+  /* ✅ 這三個是關鍵：有圖、不重複、可見 */
+  background: url("/assets/images/index/bg-line.svg") no-repeat right -8% top -24px / 55vw auto;
+  opacity:.28;
+  pointer-events:none;
+  z-index:3;               /* 不用負值，避免被整頁背景吃掉 */
+}
+/* 確保內容在圖之上 */
+.account-page-bg > *{ position:relative; z-index:0; }
+
+
