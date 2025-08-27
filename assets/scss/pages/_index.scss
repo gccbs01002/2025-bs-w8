@@ -103,6 +103,18 @@
   margin-bottom: 60px;
 }
 
+.mt-20{
+  margin-top: 50px;
+}
+
+
+@media (max-width: 767px) {
+  .mb-md-60{
+    margin-bottom: 55px;
+  }
+}
+
+
 .tabs-rail-tabs {
   background-color: #FFFFFF;
 }
