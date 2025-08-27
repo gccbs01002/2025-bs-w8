@@ -13,7 +13,7 @@
 <main class="pb-5 account-page-bg">
   <div class="container ">
     <!-- 頁首封面 -->
-    <div class="cover position-relative mb-60 mb-md-60 mt-20">
+    <div class="cover position-relative mb-60 mb-md-60 mt-20 ">
       <img src="/assets/images/user/hero.png" alt="cover" class="rounded-3">
           <button class="btn btn-dark btn-sm mt-2 align-item-end position-absolute bottom-0 end-0 fs-6"><i class="bi bi-pencil-fill me-2"></i>更換封面</button>
       <!-- 頭像置中浮出 -->
@@ -103,7 +103,7 @@
                     </div>
                     <div class="d-flex justify-content-lg-end">
                       
-            <button type="submit" class="w-10 w-lg-auto fw-bold btn btn-lg btn-outline-dark rounded-1">
+            <button type="submit" class="edit-btn w-10 w-lg-auto fw-bold btn btn-lg btn-outline-dark rounded-1">
               <i class="bi bi-pencil-square me-1" aria-hidden="true"></i>
               <span class="btn-label fs-7">編輯資訊</span>
             </button>
@@ -114,16 +114,16 @@
                   <div class="guest-content-bg mb-4 rounded-2">
                     <div class="guest-content">
                       <div class="d-flex flex-wrap justify-content-between">
-                        <div class="d-flex align-items-center mb-4 mb-lg-0">
+                        <div class="d-flex align-items-center account-card mb-4 mb-lg-0">
                           <img src="/assets/images/user/Ellipse-avatar-1.png" alt="avatar-1" class="rounded-circle border border-primary me-2">
                           <div>
-                            <p class="fw-bold mb-lg-2">Jessica Yen</p>
+                            <p class="fw-bold mb-lg-2">  Jessica Yen</p>
                             <div class="guest-text-display guest-display">
-                              <p class="d-flex align-items-center mb-1">
-                                <span class="material-icons-outlined fs-7 p-1 align-bottom">
+                              <p class="d-flex align-items-center mb-1 d-none d-lg-flex">
+                                <span class="material-icons-outlined fs-7 p-1 align-bottom ">
                                   cake </span>Jenny.Linnn@gmail.com
                               </p>
-                              <p class="d-flex align-items-center">
+                              <p class="d-flex align-items-center d-none d-lg-flex">
                                 <span class="material-icons-outlined fs-7 p-1 align-bottom">
                                   mail </span>2001.01.30
                               </p>
@@ -132,13 +132,13 @@
                         </div>
                           <!-- 右側操作：預設隱藏，hover 才浮出 -->
                         <div class="d-flex align-items-center">
-                          <button class="fw-bold btn btn-lg btn-outline-primary me-1 btn-outline-dark guest-display text-nowrap rounded-1">
+                          <button class="fw-bold btn btn-lg btn-outline-primary me-1 btn-outline-dark guest-display text-nowrap rounded-1 d-none d-lg-flex">
                             <span class="material-icons-outlined align-bottom me-1">
                               edit
                             </span>
                             <span>編輯資訊</span>
                           </button>
-                          <button class="fw-bold btn btn-lg btn-outline-primary guest-display btn-outline-dark text-nowrap rounded-1">
+                          <button class="fw-bold btn btn-lg btn-outline-primary guest-display btn-outline-dark text-nowrap rounded-1 d-none d-lg-flex">
                             <span class="material-icons-outlined align-bottom me-1">
                               close
                             </span>
@@ -148,19 +148,19 @@
                       </div>
                     </div>
                   </div>
-                  <div class="guest-content-bg mb-6 rounded-2">
+                  <div class="guest-content-bg mb-6 rounded-2 ">
                     <div >
-                      <div class="d-flex flex-wrap justify-content-between">
-                        <div class="d-flex align-items-center mb-4 mb-lg-0">
+                      <div class="d-flex flex-wrap justify-content-between ">
+                        <div class="d-flex align-items-center account-card mb-4 mb-lg-0 ">
                           <img src="/assets/images/user/Ellipse-avatar-2.png" width="50" alt="avatar-2" class="rounded-circle border border-primary me-2">
                           <div>
-                            <p class="fw-bold mb-lg-2">Jenny Lin</p>
+                            <p class="fw-bold mb-lg-2">  Jenny Lin</p>
                             <div class="guest-text-display guest-display">
-                              <p class="d-flex align-items-center mb-1">
+                              <p class="d-flex align-items-center mb-1 d-none d-lg-flex">
                                 <span class="material-icons-outlined fs-7 p-1 align-bottom">
                                   cake </span>Jenny.Linnn@gmail.com
                               </p>
-                              <p class="d-flex align-items-center">
+                              <p class="d-flex align-items-center d-none d-lg-flex">
                                 <span class="material-icons-outlined fs-7 p-1 align-bottom">
                                   mail </span>2001.01.30
                               </p>
@@ -169,13 +169,13 @@
                         </div>
                           <!-- 右側操作：預設隱藏，hover 才浮出 -->
                         <div class="d-flex align-items-center">
-                          <button class="fw-bold btn btn-lg btn-outline-primary me-1 btn-outline-dark guest-display text-nowrap rounded-1">
+                          <button class="fw-bold btn btn-lg btn-outline-primary me-1 btn-outline-dark guest-display text-nowrap rounded-1 d-none d-lg-flex">
                             <span class="material-icons-outlined align-bottom me-1 ">
                               edit
                             </span>
                             <span>編輯資訊</span>
                           </button>
-                          <button class="fw-bold btn btn-lg btn-outline-primary guest-display btn-outline-dark text-nowrap rounded-1">
+                          <button class="fw-bold btn btn-lg btn-outline-primary guest-display btn-outline-dark text-nowrap rounded-1 d-none d-lg-flex">
                             <span class="material-icons-outlined align-bottom me-1 ">
                               close
                             </span>
@@ -186,7 +186,8 @@
                     </div>
                   </div>
                   <div class="d-flex justify-content-lg-end">
-                    <button type="submit" class="w-10 w-lg-auto fw-bold btn btn-lg btn-outline-dark rounded-1">
+                    
+                    <button type="submit" class="edit-btn w-10 w-lg-auto fw-bold btn btn-lg btn-outline-dark rounded-1">
                       <span class="material-icons-outlined align-bottom justify-content-center me-1 ">
                         add
                       </span>

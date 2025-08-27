@@ -112,7 +112,15 @@
   .mb-md-60{
     margin-bottom: 55px;
   }
+
 }
+
+@media (max-width: 991px) {
+  .account-card.mb-4 {
+    margin-bottom: 0 !important;
+  }
+}
+
 
 
 .tabs-rail-tabs {
@@ -174,3 +182,7 @@
 .account-page-bg > *{ position:relative; z-index:0; }
 
 
+.edit-btn {
+  margin-left: auto;   /* 自動推到右邊 */
+  display: block;      /* 或 inline-block */
+}
