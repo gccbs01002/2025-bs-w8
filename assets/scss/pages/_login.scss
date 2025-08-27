@@ -25,3 +25,13 @@
 .pt-7{
     padding-top: 100px;
 }
+
+
+/* 固定比例，避免拉扯；不支援 aspect-ratio 的瀏覽器可改固定高度 */
+.swiper { aspect-ratio: 3 / 5; }
+
+.swiper img {
+  width: 600px;
+  object-fit: cover;
+  display: block;
+}

@@ -1,6 +1,5 @@
 import './assets/scss/all.scss';
 import 'bootstrap/js/dist/tab';
-
 console.log('Hello world');
 
 const swiper = new Swiper(".swiper", {
@@ -24,3 +23,5 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-scrollbar"
   }
 });
+
+

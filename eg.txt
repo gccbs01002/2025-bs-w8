@@ -29,3 +29,16 @@
 
 
 </style>
+
+
+
+
+
+
+
+"$neutral-80":$neutral-80,
+"$neutral-60":$neutral-60,
+"$neutral-40":$neutral-40,
+"$neutral-15":$neutral-15,
+"$neutral-10":$neutral-10,
+"$neutral-0":$neutral-0,

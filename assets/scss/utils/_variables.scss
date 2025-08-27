@@ -1,3 +1,34 @@
+
+$primary-120:#2B211C;
+$primary-100:#4A3830;
+$primary-80:#886658;
+$primary-60:#A37F71;
+$primary-40:#CBB6AF;
+$primary-10:#F3EEEC;
+
+$success-120:#48970F;
+$success:#7CD31F;
+$success-20:#DDFAA5;
+$success-10:#F0FCD1;
+
+$info-120:#1566B5;
+$info:#2AAFFC;
+$info-20:#A9EFFE;
+$info-10:#D4F9FE;
+
+$error-120:#B71D4F;
+$error:#FF3A55;
+$error-20:#FFBBB0;
+$error-10:#FFE0D7;
+
+$neutral:#000000;
+$neutral-80:#4B4B4B;
+$neutral-60:#909090;
+$neutral-40:#ECECEC;
+$neutral-15:#F4F4F4;
+$neutral-10:#F9F9F9;
+$neutral-0:#FFFFFF;
+
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
@@ -6,15 +37,15 @@
 // Color system
 
 // scss-docs-start gray-color-variables
-// 職旅中性色
-$natural-95:#F0F3F5;
-$natural-90:#E0E5EB;
-$natural-85:#D1D9E1;
-$natural-75:#B2BFCC;
-$natural-60:#8599AD;
+// 中性色
+$natural-95:#F9F9F9;
+$natural-90:#F4F4F4;
+$natural-85:#ECECEC;
+$natural-75:#909090;
+$natural-60:#4B4B4B;
 $natural-50:#667F99;
 $natural-30:#3D4D5C;
-$natural-10:#141A1F;
+$natural-10:#000000;
 $black:$natural-10;
 $dark:$black;
 $white:#fcfdfd;
@@ -312,17 +343,25 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-// 職旅主色
-$primary-97: #f1f4fd;
-$primary-90: #D2D9F9;
-$primary-80: #A4B4F3;
-$primary-70: #778EEE;
-$primary-60: #4A69E8;
-$primary-40: #1736B5;
-$primary-25: #0E2271;
-$primary: $primary-60;
+// 主色
+$primary-120:#2B211C;
+$primary-100:#4A3830;
+$primary-80:#886658;
+$primary-60:#A37F71;
+$primary-40:#CBB6AF;
+$primary-10:#F3EEEC;
+$primary: $primary-100;
 
-// 職旅輔色
+$neutral:#000000;
+$neutral-80:#4B4B4B;
+$neutral-60:#909090;
+$neutral-40:#ECECEC;
+$neutral-15:#F4F4F4;
+$neutral-10:#F9F9F9;
+$neutral-0:#FFFFFF;
+$neutral: $neutral-40;
+
+// 輔色
 $secondary-90: #D7F4EC;
 $secondary-70: #87DEC5;
 $secondary-50: #36C99F;
@@ -341,20 +380,19 @@ $dark:          $gray-900 !default;
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-// 職旅主色
-"primary-97": $primary-97,
-"primary-90": $primary-90,
+// 主色
+"primary-120": $primary-120,
+"primary-100": $primary-100,
 "primary-80": $primary-80,
-"primary-70": $primary-70,
 "primary-60": $primary-60,
 "primary-40": $primary-40,
-"primary-25": $primary-25,
-// 職旅輔色
+"primary-10": $primary-10,
+// 輔色
 "secondary-90": $secondary-90,
 "secondary-70": $secondary-70,
 "secondary-50": $secondary-50,
 "secondary-35": $secondary-35,
-// 職旅中性色
+// 中性色
 "natural-95":$natural-95,
 "natural-90":$natural-90,
 "natural-85":$natural-85,
@@ -363,6 +401,8 @@ $theme-colors: (
 "natural-50":$natural-50,
 "natural-30":$natural-30,
 "natural-10":$natural-10,
+
+
 
   "primary":    $primary,
   "secondary":  $secondary,
